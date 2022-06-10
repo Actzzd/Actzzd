@@ -1,1 +1,6 @@
 *扫码枪程序*
+Web_Project为服务端程序。
+MyApplication为客户端程序。
+使用时要根据ip信息事先对服务端的连接端口进行配置，修改Web_Project中Android_Server.java中的配置，
+相应的也要更改MyApplication中startpage.java文件中的连接字符串。
+服务端的中Android_Server.java是主要程序，客户端要进行连接操作前，要先运行Android_Server.java。
